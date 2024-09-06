@@ -1,8 +1,8 @@
-long long int	ft_atoll(char *str) // does not manage over/underflows
+int	ft_atoi(char *str) // does not manage over/underflows
 {
 	unsigned int	index;
 	unsigned int	sign_count;
-	long long int	num;
+	int		num;
 
 	index = 0;
 	sign_count = 0;
@@ -34,8 +34,8 @@ int	main(int argc, char **argv)
 {
 	if (argc == 2)
 	{
-		printf("Converted by ft_atoll : %lld\t", ft_atoll(argv[1]));
-		printf("Converted by atoll : %lld\n", atoll(argv[1]));
+		printf("Converted by ft_atoll : %d\t", ft_atoi(argv[1]));
+		printf("Converted by atoll : %d\n", atoi(argv[1]));
 	}
 	else
 		printf("Error : argument count is not matching\n");

@@ -34,8 +34,8 @@ int	main(int argc, char **argv)
 {
 	if (argc == 2)
 	{
-		printf("Converted by ft_atoll : %d\t", ft_atoi(argv[1]));
-		printf("Converted by atoll : %d\n", atoi(argv[1]));
+		printf("Converted by ft_atoi : %d\t", ft_atoi(argv[1]));
+		printf("Converted by atoi : %d\n", atoi(argv[1]));
 	}
 	else
 		printf("Error : argument count is not matching\n");

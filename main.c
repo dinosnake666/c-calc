@@ -23,7 +23,6 @@ int	main(int argc, char **argv)
 		else
 		{
 			op = argv[2][0];
-			ft_putstr("The result is : ");
 			calculator(num1, op, num2);
 		}
 	}

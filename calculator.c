@@ -18,7 +18,7 @@ void	calculator(int num1, char op, int num2)
 		write(1, "\n", 1);
 	}
 	else
-		ft_putstr("\aOperand error\nAccepted operands : +, -\n");
+		ft_putstr("Operand error\nAccepted operands : +, -\n");
 }
 
 /*int	main(void)

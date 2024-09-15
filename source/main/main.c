@@ -14,14 +14,14 @@ int	main(int argc, char **argv)
 	char	op;
 	
 	if (argc != 4)
-		ft_putstr("\aFormat error\nFormat : NUM1 OPERAND NUM2\n");
+		ft_putstr("\aFormat error\nFormat : NUM1 OPERATOR NUM2\n");
 	else
 	{
 		num1 = ft_atoi(argv[1]);
 		num2 = ft_atoi(argv[3]);
 
 		if (ft_strlen(argv[2]) != 1)
-			ft_putstr("\aFormat error\nAccepted operands : +, -, x, %, /\n");
+			ft_putstr("\aFormat error\nAccepted operators : +, -, x, %, /\n");
 		else
 		{
 			op = argv[2][0];
@@ -32,7 +32,7 @@ int	main(int argc, char **argv)
 			else if (op == '%' || op == '/')
 				ft_div_mod(num1, op, num2);
 			else
-				ft_putstr("\aFormat error\nAccepted operands : +, -, x, %, /\n");
+				ft_putstr("\aFormat error\nAccepted operators : +, -, x, %, /\n");
 		}
 	}
 	return (0);

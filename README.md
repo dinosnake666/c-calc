@@ -1,7 +1,11 @@
 This is a sub-optimal C calculator :
 → It doesn't check for under/overflow;
+
 → It only takes two operands;
+
 → It only uses additions and substractions in the code;
+
+
 
 [__Supported operators__]: addition [+]; subtraction [-]; multiplication [x]; euclidian division [/] and modulo [%].
 

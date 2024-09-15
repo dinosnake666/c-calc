@@ -1,4 +1,5 @@
 This is a sub-optimal C calculator :
+
 → It doesn't check for under/overflow;
 
 → It only takes two operands;

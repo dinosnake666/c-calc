@@ -25,7 +25,7 @@ void	ft_div_mod(int num1, char op, int num2)
 		ft_putstr("The result is : ");
 		ft_putnbr(div);
 	}
-	else if (op == '%')
+	else
 	{
 		ft_putstr("The result is : ");
 		ft_putnbr(mod);

@@ -1,5 +1,11 @@
-This is a sub-optimal C calculator : it doesn't handle integer under/overflows, only performs basic operations and is slower because it only uses addition, substraction and only the write function.
-I will probably add more complex operands later.
+This is a sub-optimal C calculator :
+→ It doesn't check for under/overflow;
+→ It only takes two operands;
+→ It only uses additions and substractions in the code;
+
+[__Supported operators__]: addition [+]; subtraction [-]; multiplication [x]; euclidian division [/] and modulo [%].
+
+I will add more complex operators later.
 
 Compile with : __make__
 

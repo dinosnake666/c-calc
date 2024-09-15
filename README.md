@@ -6,9 +6,9 @@ This is a sub-optimal C calculator :
 
 → It only uses additions and substractions in the code;
 
+→ For the exponentiation, 0⁰ = 1;
 
-
-[__Supported operators__]: addition [+]; subtraction [-]; multiplication [x]; euclidian division [/] and modulo [%].
+[__Supported operators__]: addition [+]; subtraction [-]; multiplication [x]; exponentiation [p]; euclidian division [/] and modulo [%].
 
 I will add more complex operators later.
 

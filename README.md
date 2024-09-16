@@ -25,7 +25,7 @@
 - euclidian division [/] 
 - and modulo [%].
 
-## How do I use it ?
+# How do I use it ?
 ## __Syntax__:
 - The syntax is : ***./c-calc number1 operator number2***;
 - A number can start with an __arbitrary amount__ of whitspaces, '+' and '-' signs;

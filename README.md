@@ -1,19 +1,33 @@
-This is a sub-optimal C calculator :
+# This is a sub-optimal C calculator
 
-→ It doesn't check for under/overflow;
+1. It doesn't check for under/overflow;
+2. It is limited to signed integers;
+3. It only takes two operands;
+4. It only uses additions and substractions in the code;
+5. It is poorly designed;
+6. For the exponentiation : 0⁰ = 1
+   > I know, it should be undefined.
 
-→ It only takes two operands;
+# How do I make it work ?
+## __Compilation__:
+- Compile with : `make` 
+  - Delete .o files : `make clean` 
+  - Delete .o files and the executable : `make fclean`
+ 
+>[!TIP]
+>Add the flag `-s` to render the processes silent.
 
-→ It only uses additions and substractions in the code;
+## __Supported operators__:
+- addition [+];
+- subtraction [-];
+- multiplication [x]; 
+- exponentiation [p];
+- euclidian division [/] 
+- and modulo [%].
 
-→ For the exponentiation, 0⁰ = 1;
-
-[__Supported operators__]: addition [+]; subtraction [-]; multiplication [x]; exponentiation [p]; euclidian division [/] and modulo [%].
-
-I will add more complex operators later.
-
-Compile with : __make__
-
-Delete .o files : __make clean__
-
-Delete .o files and the executable : __make fclean__
+## How do I use it ?
+## __Syntax__:
+- The syntax is : ***./c-calc number1 operator number2***;
+- A number can start with an __arbitrary amount__ of whitspaces, '+' and '-' signs;
+- The amount of '-' signs determines the sign of the number : negative if odd, positive if even.
+- The operators is only a single character;

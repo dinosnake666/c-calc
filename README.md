@@ -4,7 +4,7 @@
 2. It is limited to signed integers;
 3. It only takes two operands;
 4. It only uses additions and substractions in the code;
-5. It is poorly designed;
+5. It is poorly designed (I only use `write`);
 6. For the exponentiation : 0⁰ = 1.
    > I know, it should be undefined.
 
@@ -32,8 +32,8 @@
 - The amount of `-` signs determines the sign of the number : negative if odd, positive if even.
 - The operator is only a single character;
 
-### Coming soon
-- factorial `f`;
-- square root `s`;
-- unit conversions
-- using double !
+# Coming soon !
+- A massive rework where I will include :
+  - factorial `f`;
+  - square root `s`;
+  - the ability to use `double`;

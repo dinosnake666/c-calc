@@ -17,17 +17,23 @@
 >[!TIP]
 >Add the flag `-s` to render the processes silent (and spare your eyes from a visual nightmare).
 
-## __Supported operators__
-- addition [+];
-- subtraction [-];
-- multiplication [x]; 
-- exponentiation [p];
-- euclidian division [/] 
-- and modulo [%].
-
 # How do I use it ?
+## __Supported operators__
+- addition `+`;
+- subtraction `-`;
+- multiplication `x`;
+- exponentiation `p`;
+- euclidian division `/`
+- and modulo `%`.
+
 ## __Syntax__
 - The syntax is : ***./c-calc number1 operator number2***;
 - A number can start with an __arbitrary amount__ of whitespaces, '+' and '-' signs;
 - The amount of '-' signs determines the sign of the number : negative if odd, positive if even.
-- The operators is only a single character;
+- The operator is only a single character;
+
+### Coming soon
+- factorial `f`;
+- square root `s`;
+- unit conversions
+- using double !

@@ -1,6 +1,6 @@
 #include <unistd.h>
-#include "string_manipulation.h"
-#include "operators.h"
+#include "../headers/string_manipulation.h"
+#include "../headers/operators.h"
 
 int	main(int argc, char **argv)
 {

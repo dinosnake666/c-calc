@@ -47,10 +47,12 @@ void	ft_multi_power(int num1, char op, int num2)
 	{
 		ft_putstr("The result is : ");
 		ft_putnbr(ft_multi(num1, num2));
+		write(1, "\n", 1);
 	}
 	else
 	{
 		ft_putstr("The result is : ");
 		ft_putnbr(ft_power(num1, num2));
+		write(1, "\n", 1);
 	}
 }

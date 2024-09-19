@@ -34,16 +34,18 @@ void	ft_fact_sqrt(int num, char op)
 	if (op == 's')
 	{
 		if (ft_sqrt(num) < 0)
-			ft_putstr("The result is either undefined or not an integer");
+			ft_putstr("The result is either undefined or not an integer\n");
 		else
 		{
 			ft_putstr("The result is : ");
 			ft_putnbr(ft_sqrt(num));
+			write(1, "\n", 1);
 		}
 	}
 	else
 	{
 		ft_putstr("The result is : ");
 		ft_putnbr(ft_factorial(num));
+		write(1, "\n", 1);
 	}
 }

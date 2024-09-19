@@ -23,4 +23,6 @@ fclean: clean
 
 re:	fclean all
 
+.SILENT : clean fclean re
+
 .PHONY: all clean fclean re

@@ -9,7 +9,7 @@ void	ft_div_mod(int num1, char op, int num2)
 	div = 0;
 	if (num2 == 0)
 	{
-		ft_putstr("Error : UNDEFINED");
+		ft_putstr("Error : UNDEFINED\n");
 		return ;
 	}
 	while (num1 >= num2)
@@ -22,10 +22,12 @@ void	ft_div_mod(int num1, char op, int num2)
 	{
 		ft_putstr("The result is : ");
 		ft_putnbr(div);
+		write(1, "\n", 1);
 	}
 	else
 	{
 		ft_putstr("The result is : ");
 		ft_putnbr(mod);
+		write(1, "\n", 1);
 	}
 }

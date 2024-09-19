@@ -22,18 +22,18 @@
 - addition `+`;
 - subtraction `-`;
 - multiplication `x`;
+- factorial `f`;
+- square root `s`;
 - exponentiation `p`;
 - euclidian division `/`
 - and modulo `%`.
 
 ## __Syntax__
-- The syntax is : ***`./c-calc number1 operator number2`***;
+- The syntax is : ***`./c-calc number1 operator number2`*** or ***`./c-calc number1 operator`***;
 - A number can start with an __arbitrary amount__ of whitespaces, `+` and `-` signs;
 - The amount of `-` signs determines the sign of the number : negative if odd, positive if even.
 - The operator is only a single character;
 
 # Coming soon !
 - A massive rework where I will include :
-  - factorial `f`;
-  - square root `s`;
-  - the ability to use `double`;
+  - the ability to use `double` numbers;

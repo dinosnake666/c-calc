@@ -1,7 +1,5 @@
 #include <unistd.h>
-
-void	ft_putnbr(int n);
-void	ft_putstr(char *str);
+#include "../headers/string_manipulation.h"
 
 void	ft_add_sub(int num1, char op, int num2)
 {

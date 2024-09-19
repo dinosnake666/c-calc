@@ -43,6 +43,6 @@ int	main(int argc, char **argv)
 		}
 	}
 	else
-		ft_putstr("\aFormat error\nFormat : NUM1 OPERATOR NUM2\n");
+		ft_putstr("\aFormat error\nFormats : NUM1 OPERATOR NUM2 || NUM OPERATOR\n");
 	return (0);
 }

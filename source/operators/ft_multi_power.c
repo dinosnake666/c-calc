@@ -1,7 +1,5 @@
 #include <unistd.h>
-
-void	ft_putnbr(int n);
-void	ft_putstr(char *str);
+#include "../headers/string_manipulation.h"
 
 int	ft_multi(int num1, int num2)
 {

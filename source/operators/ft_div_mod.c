@@ -1,7 +1,5 @@
 #include <unistd.h>
-
-void	ft_putnbr(int n);
-void	ft_putstr(char *str);
+#include "../headers/string_manipulation.h"
 
 void	ft_div_mod(int num1, char op, int num2)
 {

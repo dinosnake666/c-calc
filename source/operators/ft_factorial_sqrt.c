@@ -1,9 +1,6 @@
 #include <unistd.h>
-
-void	ft_putnbr(int n);
-void	ft_putstr(char *str);
-int	ft_multi(int num1, int num2);
-int     ft_power(int num, int power);
+#include "../headers/string_manipulation.h"
+#include "../headers/operators.h"
 
 int	ft_factorial(int num)
 {

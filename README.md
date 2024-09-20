@@ -10,12 +10,9 @@
 
 # How do I make it work ?
 ## __Compilation__
-- Compile with : `make` 
+- Compile with : `make -s` 
   - Delete .o files : `make clean` 
   - Delete .o files and the executable : `make fclean`
- 
->[!TIP]
->Add the flag `-s` to render the processes silent (and spare your eyes from a visual nightmare).
 
 # How do I use it ?
 ## __Supported operators__

@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include "../headers/string_manipulation.h"
 
 int	ft_multi(int num1, int num2)
@@ -45,12 +44,12 @@ void	ft_multi_power(int num1, char op, int num2)
 	{
 		ft_putstr("The result is : ");
 		ft_putnbr(ft_multi(num1, num2));
-		write(1, "\n", 1);
+		ft_putstr("\n");
 	}
 	else
 	{
 		ft_putstr("The result is : ");
 		ft_putnbr(ft_power(num1, num2));
-		write(1, "\n", 1);
+		ft_putstr("\n");
 	}
 }

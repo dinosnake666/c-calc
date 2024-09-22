@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include "../headers/string_manipulation.h"
 #include "../headers/operators.h"
 

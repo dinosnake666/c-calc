@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include "../headers/string_manipulation.h"
 
 void	ft_div_mod(int num1, char op, int num2)
@@ -22,12 +21,12 @@ void	ft_div_mod(int num1, char op, int num2)
 	{
 		ft_putstr("The result is : ");
 		ft_putnbr(div);
-		write(1, "\n", 1);
+		ft_putstr("\n");
 	}
 	else
 	{
 		ft_putstr("The result is : ");
 		ft_putnbr(mod);
-		write(1, "\n", 1);
+		ft_putstr("\n");
 	}
 }

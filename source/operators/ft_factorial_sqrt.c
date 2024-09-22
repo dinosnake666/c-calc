@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include "../headers/string_manipulation.h"
 #include "../headers/operators.h"
 
@@ -39,13 +38,13 @@ void	ft_fact_sqrt(int num, char op)
 		{
 			ft_putstr("The result is : ");
 			ft_putnbr(ft_sqrt(num));
-			write(1, "\n", 1);
+			ft_putstr("\n");
 		}
 	}
 	else
 	{
 		ft_putstr("The result is : ");
 		ft_putnbr(ft_factorial(num));
-		write(1, "\n", 1);
+		ft_putstr("\n");
 	}
 }
